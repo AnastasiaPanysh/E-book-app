@@ -1,0 +1,83 @@
+.image {
+  background-image: url(./assets/hero-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 705px;
+  height: 800px;
+}
+.wrapper {
+  display: flex;
+  margin-top: 60px;
+}
+
+.logo {
+  background-image: url(./assets/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 223px;
+  height: 76px;
+  margin-bottom: 50px;
+}
+
+.wrapper .preview-information h1 {
+  font: 700 80px "Montserrat";
+  align-items: center;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.wrapper .preview-information p {
+  font-size: 20px;
+  color: #cdcccf;
+}
+
+.wrapper-btn {
+  margin-top: 60px;
+  display: flex;
+}
+
+.google-play {
+  background-image: url(./assets/button_2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 190px;
+  height: 60px;
+  margin-right: 16px;
+}
+.app-store {
+  background-image: url(./assets/button_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 190px;
+  height: 60px;
+}
+
+.preview-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 495px;
+  height: 650px;
+  margin: auto auto 0;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+}
+
+.explore p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin-right: 10px;
+}
+
+.explore .arrow {
+  background-image: url(./assets/Vector\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 16px;
+  align-self: center;
+}
