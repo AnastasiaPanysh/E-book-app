@@ -1,0 +1,105 @@
+.wrapper {
+    margin-bottom: 180px;
+}
+
+.wrapper h2 {
+    font: 700 60px 'Montserrat';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    margin: 48px auto 80px;
+    background: #2B2A2D;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.container p {
+    font: 400 18px 'Montserrat';
+    color: #FFFFFF;
+    /* color: black;  */
+    padding: 13px 40px;
+     /* background: #FFFFFF;  */
+    border-radius: 10px;
+}
+.container p:hover {
+    font: 400 18px 'Montserrat';
+    color: black; 
+    padding: 13px 40px;
+     background: #FFFFFF; 
+    border-radius: 10px;
+}
+
+.container p:first-child {
+    margin-left: 6px;
+}
+
+.container p:last-child {
+    margin-right: 6px;
+}
+
+.wrapper .block-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-feature .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 540px;
+    height: 260px;
+}
+
+.content h2 {
+    font: 700 48px 'Montserrat';
+    color: #FFFFFF;
+}
+
+.content p {
+    font: 400 20px 'Montserrat';
+    color: #FFFFFF;
+}
+
+.block-feature .imgClass1 {
+    background-image: url(./assets/image_1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.block-feature .imgClass2 {
+    background-image: url(./assets/image_2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.block-feature .imgClass3 {
+    background-image: url(./assets/image_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
+}
+
+.block-feature .imgClass4 {
+    background-image: url(./assets/image_4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 520px;
+    border-radius: 32px 32px 32px 32px;
+}
