@@ -1,0 +1,105 @@
+.wrapper {
+  margin-bottom: 180px;
+}
+
+.wrapper h2 {
+  font: 700 60px "Montserrat";
+  color: #ffffff;
+  text-align: center;
+}
+.container,.start {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment,
+.start {
+  margin-top: 88px;
+  box-sizing: border-box;
+  width: 640px;
+  height: 460px;
+  background: #2b2a2d;
+  border-radius: 24px;
+}
+
+.payment h2 {
+  font: 700 42px "Montserrat";
+  color: #ffffff;
+  margin: 10% auto;
+}
+
+.payment .payment-btn {
+  font: 500 15px "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 170px;
+  height: 36px;
+  background: linear-gradient(246.65deg, #faab2b -55.2%, #df5820 81.62%);
+  border-radius: 8px;
+}
+
+.switcher-block {
+  display: flex;
+  align-items: center;
+  margin: 5% auto;
+  width: 270px;
+}
+
+.switcher-block .switcher-p {
+  font: 500 20px "Montserrat";
+  color: #ffffff;
+}
+
+.payment p {
+  width: 420px;
+  font: 500 16px "Montserrat";
+  color: #ffffff;
+  margin: auto;
+}
+
+.start .start-text p {
+  font: 700 32px "Montserrat";
+  color: #ffffff;
+  width: 324px;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.wrapper-btn {
+  margin-top: 60px;
+  margin-left: 40px;
+
+  display: flex;
+}
+
+.google-play {
+  background-image: url(./assets/google.svg);
+  background-color: black;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 148px;
+  height: 46px;
+  margin-right: 16px;
+}
+.app-store {
+  background-image: url(./assets/apple.svg);
+  background-color: black;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 148px;
+  height: 46px;
+}
+
+.image {
+  background-image: url(./assets/iPhone\ 15.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin: 80px 0 0 0;
+  width: 230px;
+  height: 380px;
+}

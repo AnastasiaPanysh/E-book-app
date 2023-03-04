@@ -37,6 +37,8 @@
 
 .google-play {
   background-image: url(./assets/button_2.svg);
+  background-color: #2B2A2D;
+  border-radius: 8px;
   background-repeat: no-repeat;
   background-size: contain;
   width: 190px;
@@ -45,6 +47,8 @@
 }
 .app-store {
   background-image: url(./assets/button_1.svg);
+  background-color: #2B2A2D;
+  border-radius: 8px;
   background-repeat: no-repeat;
   background-size: contain;
   width: 190px;

@@ -5,8 +5,9 @@ function ContentItem({ label }) {
         {
             id: 1,
             title: 'Internal editor',
-            text: `While reading, you can easily change the color, font, text size, line spacing, and other attributes. 
+            text: `While reading, you can easily change the color, font, text size, line spacing, and other attributes.
 
+            
             Mark up and annotate text passages, bookmark your current page, translate selected parts of the text or copy it.`,
             img: 'imgClass1'
         }

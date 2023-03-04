@@ -4,7 +4,7 @@ function TextContentItem({ title, text, imgClass }) {
     return (
         <>
             <div className={style['content']}>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{text}</p>
             </div>
             <div className={style[imgClass]}></div>
