@@ -1,11 +1,14 @@
 import style from './Pricing.module.css'
 import { useState } from 'react'
-import { Switch } from '@mui/material'
+// import { Switch } from '@mui/material'
 
 
 function Pricing() {
-    // const [content, setContent] = useState(<ContentItem label={'Internal editor'} />);
+    const [swap, setSwap] = useState(false)
 
+    function doSwapSwitch() {
+        setSwap(!swap ? true : false)
+    }
 
     return (
         <div className={style['wrapper']}>
@@ -16,7 +19,8 @@ function Pricing() {
                     <div className={style['payment-btn']}>$86,68 billed yearly</div>
                     <div className={style['switcher-block']}>
                         <p className={style['switcher-p']}>Pay Yearly</p>
-                        <Switch defaultChecked color="default" />
+                        <div onClick={doSwapSwitch} className={!swap ? style['swap-1'] : style['swap-2']}></div>
+                        {/* <Switch defaultChecked color="default" /> */}
                         <p className={style['switcher-p']}>Monthly</p>
                     </div>
                     <p>No ads, hidden fees. Your data stays private, and we get to focus on building the best product for you.</p>

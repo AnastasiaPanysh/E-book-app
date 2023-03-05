@@ -7,7 +7,8 @@
   color: #ffffff;
   text-align: center;
 }
-.container,.start {
+.container,
+.start {
   display: flex;
   justify-content: space-between;
 }
@@ -16,7 +17,7 @@
 .start {
   margin-top: 88px;
   box-sizing: border-box;
-  width: 640px;
+  width: 628px;
   height: 460px;
   background: #2b2a2d;
   border-radius: 24px;
@@ -42,14 +43,33 @@
 
 .switcher-block {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin: 5% auto;
-  width: 270px;
+width: 280px;
 }
 
 .switcher-block .switcher-p {
   font: 500 20px "Montserrat";
   color: #ffffff;
+}
+
+.switcher-block .swap-1 {
+  background-image: url(./assets/swap-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 180px;
+  height: 25px;
+  margin-right: 3%;
+
+}
+
+.switcher-block .swap-2 {
+  background-image: url(./assets/swap-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 180px;
+  height: 25px;
+  margin-right: 3%;
 }
 
 .payment p {

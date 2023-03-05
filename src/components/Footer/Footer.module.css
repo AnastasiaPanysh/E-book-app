@@ -1,16 +1,23 @@
 .wrapper {
+  background: #2B2A2D;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.wrapper-wdth {
+  width: 1220px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-background: #2B2A2D;
-text-align: left;
-
+  text-align: left;
 }
 
 .logo {
-  background-image: url(./assets/Logo\ \(2\).svg);
-  background-color: #2B2A2D;
+  background-image: url(./assets/logo.svg);
+  background-color: #2b2a2d;
   width: 182px;
   height: 40px;
   background-size: contain;
@@ -19,23 +26,19 @@ text-align: left;
 
 .wrapper nav {
   display: flex;
-
 }
 
 .wrapper nav p {
   font: 400 16px "Montserrat";
   color: #ffffff;
   margin-right: 60px;
-
 }
 
-
-.wrapper .icons{
-    background-image: url(./assets/icons.svg);
-    background-color: #2B2A2D;
-    width: 120px;
-    height: 24px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+.wrapper .icons {
+  background-image: url(./assets/icons.svg);
+  background-color: #2b2a2d;
+  width: 120px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
