@@ -23,11 +23,10 @@
  .wrapper .container .container-p {
   font: 400 18px "Montserrat";
   color: #ffffff;
-  /* color: black;  */
   padding: 13px 40px;
-  /* background: #FFFFFF;  */
   border-radius: 10px;
 }
+
 .container-p-2 {
   font: 400 18px "Montserrat";
   color: #434247;
