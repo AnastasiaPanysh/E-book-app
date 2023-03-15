@@ -24,10 +24,12 @@
   align-items: center;
   color: #fff;
   margin-bottom: 25px;
+  line-height: 80px;
 }
 .wrapper .preview-information p {
   font-size: 20px;
   color: #cdcccf;
+  line-height: 32px;
 }
 
 .wrapper-btn {

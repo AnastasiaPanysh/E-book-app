@@ -72,6 +72,7 @@
 
 .content p {
   font: 400 20px "Montserrat";
+  line-height: 32px;
   color: #ffffff;
   width: 600px;
 }

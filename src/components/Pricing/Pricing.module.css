@@ -26,7 +26,7 @@
 .payment h2 {
   font: 700 42px "Montserrat";
   color: #ffffff;
-  margin: 10% auto;
+  margin: 17% auto 3%;
 }
 
 .payment .payment-btn {
@@ -45,7 +45,7 @@
   display: flex;
   justify-content: center;
   margin: 5% auto;
-width: 280px;
+  width: 280px;
 }
 
 .switcher-block .switcher-p {
@@ -60,7 +60,6 @@ width: 280px;
   width: 180px;
   height: 25px;
   margin-right: 3%;
-
 }
 
 .switcher-block .swap-2 {
